@@ -7,6 +7,7 @@ const ui = Inter({ variable: "--font-ui", subsets: ["latin"] });
 const mono = Geist_Mono({ variable: "--font-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://felipepsh.github.io"),
   title: "Felipe Pereira dos Santos — Mobile Engineer",
   description:
     "Mobile engineer with 7+ years shipping fintech, logistics and SaaS apps. From Santander's mobile security team in Brazil to startups in Australia.",
