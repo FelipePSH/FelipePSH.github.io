@@ -88,7 +88,7 @@ export function FilmPlayer() {
     <div className="window">
       <div className="window-bar">
         <span className="dots"><i /><i /><i /></span>
-        <span className="url">felipepsh.dev/work/{FILMS[i].id}</span>
+        <span className="url">felipepsh.github.io/{FILMS[i].id}</span>
         <button className="sound" onClick={() => setMuted((m) => !m)} aria-pressed={!muted}>
           {muted ? "Sound off" : "Sound on"}
         </button>
