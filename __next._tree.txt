@@ -1,0 +1,10 @@
+:HL["/_next/static/chunks/25k8j4o-vqmfl.css","style"]
+:HL["/_next/static/media/26aa48c1bdeb5547-s.p.30a_ou6vtcpon.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/logos/santander.svg","image"]
+:HL["/logos/inmetrics.svg","image"]
+:HL["/logos/involves.png","image"]
+:HL["/logos/revelo.svg","image"]
+:HL["/logos/ade.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"TQ96v1XDjDbdx_1F3aSp5"}
