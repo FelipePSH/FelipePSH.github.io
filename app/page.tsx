@@ -54,7 +54,7 @@ export default function Home() {
             <a href="#career">Career</a>
             <a href="#about">About</a>
           </div>
-          <a className="btn btn-blue btn-sm" href={LINKS.linkedin} target="_blank" rel="noreferrer">
+          <a className="btn btn-grad btn-sm" href={LINKS.linkedin} target="_blank" rel="noreferrer">
             Let&apos;s talk
           </a>
         </nav>
@@ -63,28 +63,44 @@ export default function Home() {
       <main id="top">
         {/* Hero */}
         <section className="hero">
-          <div className="wave" aria-hidden />
+          <div className="mesh" aria-hidden />
+          <div className="grain" aria-hidden />
           <div className="col col-dark hero-inner">
-            <Reveal>
-              <Label dark>Mobile engineer · Based in Australia</Label>
-            </Reveal>
-            <Reveal delay={80}>
-              <h1>
-                I build the apps
-                <br />
-                people rely on.
-              </h1>
-            </Reveal>
-            <Reveal delay={160}>
-              <p className="lede">
-                7+ years shipping Android and iOS products across fintech, logistics, healthcare and SaaS — from
-                Santander&apos;s mobile security team in Brazil to startups in Australia.
-              </p>
-            </Reveal>
-            <Reveal delay={240} className="ctas">
-              <a className="btn btn-blue" href="#work">See my work</a>
-              <a className="link-arrow" href={LINKS.linkedin} target="_blank" rel="noreferrer">LinkedIn →</a>
-            </Reveal>
+            <div className="hero-grid">
+              <div className="hero-copy">
+                <Reveal>
+                  <Label dark>Mobile engineer · Based in Australia</Label>
+                </Reveal>
+                <Reveal delay={80}>
+                  <h1>
+                    I build the apps
+                    <br />
+                    people <span className="grad-text">rely on.</span>
+                  </h1>
+                </Reveal>
+                <Reveal delay={160}>
+                  <p className="lede">
+                    7+ years shipping Android and iOS products across fintech, logistics, healthcare and SaaS — from
+                    Santander&apos;s mobile security team in Brazil to startups in Australia.
+                  </p>
+                </Reveal>
+                <Reveal delay={240} className="ctas">
+                  <a className="btn btn-grad" href="#work">See my work</a>
+                  <a className="link-arrow" href={LINKS.linkedin} target="_blank" rel="noreferrer">LinkedIn →</a>
+                </Reveal>
+              </div>
+              <Reveal delay={200} className="hero-photo">
+                <div className="hero-photo-glow" aria-hidden />
+                <div className="hero-photo-frame">
+                  <div className="hero-photo-inner">
+                    <Image src="/photos/felipe-portrait.jpg" alt="Felipe Pereira dos Santos" fill priority sizes="(max-width: 900px) 70vw, 420px" />
+                  </div>
+                </div>
+                <div className="hero-chip">
+                  <span className="dot" /> Felipe Pereira dos Santos
+                </div>
+              </Reveal>
+            </div>
             <Reveal delay={320} className="hero-film">
               <FilmPlayer />
             </Reveal>
@@ -242,7 +258,8 @@ export default function Home() {
 
         {/* Contact */}
         <section className="hero contact">
-          <div className="wave" aria-hidden />
+          <div className="mesh" aria-hidden />
+          <div className="grain" aria-hidden />
           <div className="col col-dark contact-inner">
             <Reveal>
               <Label dark>Contact</Label>
@@ -250,7 +267,7 @@ export default function Home() {
               <p className="lede">Open to roles and projects where mobile is the product.</p>
             </Reveal>
             <Reveal delay={120} className="ctas">
-              <a className="btn btn-blue" href={LINKS.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
+              <a className="btn btn-grad" href={LINKS.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
               <a className="btn btn-ghost" href={LINKS.github} target="_blank" rel="noreferrer">GitHub</a>
               <span className="email">{LINKS.email}</span>
             </Reveal>
