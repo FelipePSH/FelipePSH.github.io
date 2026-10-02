@@ -174,12 +174,12 @@ export default function Home() {
               <h3>Boomerang</h3>
               <p>
                 The delivery app coordinating 200+ last-mile drivers across multiple Australian states. Live route
-                maps, one-tap re-optimisation, label scanning and a stop-by-stop delivery flow — replacing a slow,
+                maps with 200+ stops, one-tap re-optimisation, label scanning and a stop-by-stop delivery flow — replacing a slow,
                 manual legacy app.
               </p>
               <ul className="facts">
                 <li><b>200+</b> drivers</li>
-                <li><b>Multi-state</b> across Australia</li>
+                <li><b>200+</b> stops per route</li>
                 <li><b>1 tap</b> re-optimise</li>
               </ul>
             </Reveal>
