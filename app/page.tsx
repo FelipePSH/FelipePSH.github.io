@@ -150,7 +150,7 @@ export default function Home() {
 
           <article className="case">
             <Reveal className="case-copy">
-              <p className="case-tag">Fintech · iOS</p>
+              <p className="case-tag">Fintech · Android &amp; iOS</p>
               <h3>Swaparoo</h3>
               <p>
                 Global payments between Australia and Brazil, powered by stablecoins. Live exchange rates, AUD ↔ BRL ↔
@@ -170,16 +170,17 @@ export default function Home() {
 
           <article className="case reverse">
             <Reveal className="case-copy">
-              <p className="case-tag">Logistics · Android → iOS</p>
+              <p className="case-tag">Logistics · Android &amp; iOS</p>
               <h3>Boomerang</h3>
               <p>
-                A delivery app for last-mile drivers, reimagined. Live route maps with 200+ stops, one-tap
-                re-optimisation, label scanning and a stop-by-stop delivery flow — replacing a slow, manual legacy app.
+                The delivery app coordinating 200+ last-mile drivers across multiple Australian states. Live route
+                maps, one-tap re-optimisation, label scanning and a stop-by-stop delivery flow — replacing a slow,
+                manual legacy app.
               </p>
               <ul className="facts">
-                <li><b>200+</b> stops per route</li>
+                <li><b>200+</b> drivers</li>
+                <li><b>Multi-state</b> across Australia</li>
                 <li><b>1 tap</b> re-optimise</li>
-                <li><b>Scan</b> to add parcels</li>
               </ul>
             </Reveal>
             <Reveal delay={120} className="case-visual violet">
