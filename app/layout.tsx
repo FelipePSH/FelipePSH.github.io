@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Albert_Sans, Geist_Mono, Inter } from "next/font/google";
+import { Instrument_Sans, JetBrains_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
-const display = Albert_Sans({ variable: "--font-display", subsets: ["latin"] });
-const ui = Inter({ variable: "--font-ui", subsets: ["latin"] });
-const mono = Geist_Mono({ variable: "--font-mono", subsets: ["latin"] });
+const display = Space_Grotesk({ variable: "--font-display", subsets: ["latin"] });
+const ui = Instrument_Sans({ variable: "--font-ui", subsets: ["latin"] });
+const mono = JetBrains_Mono({ variable: "--font-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://felipepsh.github.io"),

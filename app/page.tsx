@@ -109,7 +109,6 @@ export default function Home() {
 
         {/* Logos */}
         <section className="col logos-section">
-          <span className="cross tl" /><span className="cross tr" />
           <Label>Where I&apos;ve worked &amp; contributed</Label>
           <div className="marquee" aria-label="Companies">
             <div className="track">
@@ -183,7 +182,7 @@ export default function Home() {
                 <li><b>Scan</b> to add parcels</li>
               </ul>
             </Reveal>
-            <Reveal delay={120} className="case-visual blue">
+            <Reveal delay={120} className="case-visual violet">
               <div className="before-after">
                 <figure>
                   <Phone src="/videos/before.mp4" tone="muted" />
@@ -200,7 +199,6 @@ export default function Home() {
 
         {/* Career */}
         <section id="career" className="col section career">
-          <span className="cross tl" /><span className="cross tr" />
           <Reveal className="career-head">
             <Label>Career</Label>
             <h2>From Brazil to Australia, one shipped app at a time.</h2>
